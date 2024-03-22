@@ -5,15 +5,91 @@
 }
 
 body {
-  font-size: 18px;
+  font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  background-color: #000;
 }
 
-div.gallery > a img {
-  width: 300px;
+.title,
+h2 {
+  color: #000;
+  background-color: #cbc6be;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 36px;
+  margin: 30px auto;
+  text-align: center;
 }
 
 nav {
+  display: flex;
   width: 100%;
   height: 40px;
-  background-color: cornflowerblue;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #cbc6be;
+  padding: 15px;
+}
+
+nav a:hover {
+  color: #e6526f;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  width: 100%;
+}
+
+.thor,
+.ironman,
+.hulk,
+.captain,
+.black-widow,
+.hawkeye {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  height: 300px;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+.ironman {
+  left: 35%;
+}
+
+.hulk {
+  left: 67%;
+}
+
+.captain {
+  top: 75%;
+}
+
+.black-widow {
+  top: 75%;
+  left: 35%;
+}
+
+.hawkeye {
+  top: 75%;
+  left: 67%;
+}
+
+.thor:hover,
+.ironman:hover,
+.hulk:hover,
+.hawkeye:hover,
+.black-widow:hover,
+.captain:hover {
+  transform: scale(1.1);
 }
