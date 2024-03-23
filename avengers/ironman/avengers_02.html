@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iron man</title>
     <link rel="stylesheet" href="ironman.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,16 +19,19 @@
     />
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
         <nav>
           <a href="/">Home</a>
           <a href="about.html">About</a>
-          <a href="">Gallery</a>
           <a href="contact.html">Contact</a>
         </nav>
         <div class="gallery">
-          <img src="/images/ironman/ironman-main.png" alt="Iron Man" />
+          <img
+            src="/images/ironman/ironman-main.png"
+            class="img-fluid"
+            alt="Iron Man"
+          />
           <div class="avenger-title">
             <h1>Iron man</h1>
             <p class="avenger-intro">
@@ -37,8 +46,12 @@
       </header>
       <main>
         <div class="stats-container">
-          <div class="stat-img">
-            <img src="/images/ironman/ironman_stats_2.png" alt="" />
+          <div class="stat-img mt-3">
+            <img
+              src="/images/ironman/ironman_stats_2.png"
+              class="img-fluid"
+              alt="Iron Man"
+            />
           </div>
           <div class="avenger-facts">
             <div class="bio">
@@ -47,6 +60,8 @@
               <p><b>Place of Birth: </b>New York City</p>
               <p><b>Alignment:</b> Good</p>
               <p><b>Race:</b> Human</p>
+              <p><b>Height:</b> 6'1</p>
+              <p><b>Weight:</b> 225 lbs</p>
             </div>
             <div class="stats">
               <h2>Power Stats</h2>
@@ -63,8 +78,8 @@
           <div class="stat-img">
             <img
               src="/images/ironman/ironman_stats_3.jpg"
-              class="stat-img"
-              alt=""
+              class="stat-img img-fluid"
+              alt="Iron Man"
             />
           </div>
           <p class="description">
@@ -87,12 +102,10 @@
             provide them the means with which to escape. The suit worked as
             planned, though Yinsen sacrificed himself in order to allow Tony
             enough time to power it up to fight their terrorist captors.
-            <br />
-            <br />
-            <span class="avenger-quote">
-              "Tastes like coconut... and metal." - Tony Stark</span
-            >
           </p>
+        </div>
+        <div class="avenger-quote mb-4">
+          "Tastes like coconut... and metal." - Tony Stark
         </div>
       </main>
     </div>

@@ -1,6 +1,5 @@
 body {
   font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
-  font-size: 20px;
 }
 
 h1 {
@@ -14,10 +13,6 @@ h1 {
 
 h2 {
   text-decoration: underline;
-}
-
-.main-img {
-  width: 100%;
 }
 
 header {
@@ -45,6 +40,14 @@ nav a:hover {
   color: #134c23;
 }
 
+b {
+  color: #304349;
+}
+
+.main-img {
+  width: 100%;
+}
+
 .avenger-title {
   position: absolute;
   top: 20%;
@@ -57,31 +60,30 @@ nav a:hover {
   letter-spacing: 0.5px;
   line-height: 30px;
   width: 300px;
-}
-
-.stats-container {
-  margin-top: 10px;
+  font-size: 20px;
 }
 
 .stats-img {
   float: left;
 }
 
-.avenger-facts {
-  position: absolute;
-  top: 75%;
-  left: 70%;
-  display: flex;
+/* .stats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
+} */
+
+.avengers-story {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0px 0;
+  align-items: center;
+  padding-top: 30px;
   text-align: justify;
 }
 
 .stats {
   margin-left: 50px;
-}
-
-b {
-  color: #304349;
 }
 
 .description {

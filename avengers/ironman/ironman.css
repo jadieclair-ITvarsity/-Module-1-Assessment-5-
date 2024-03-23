@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 {
@@ -40,6 +40,10 @@ nav a:hover {
   color: #fff;
 }
 
+b {
+  color: #f4b005;
+}
+
 .avenger-title {
   position: absolute;
   top: 60%;
@@ -57,15 +61,12 @@ nav a:hover {
 .stats-container {
   position: relative;
   width: 100%;
-  margin-top: 20px;
   height: 500px;
   background-color: #000;
 }
 
 .stat-img {
   width: 100%;
-  display: block;
-  height: 750px;
 }
 
 .avenger-facts {
@@ -88,10 +89,6 @@ nav a:hover {
   left: 70%;
 }
 
-b {
-  color: #f4b005;
-}
-
 .stat-img {
   text-align: center;
 }
@@ -99,6 +96,7 @@ b {
 .avengers-story {
   position: relative;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .description {
@@ -108,19 +106,14 @@ b {
   max-width: 50%;
   padding: 20px 50px;
   line-height: 2.2;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2;
 }
 
 .avenger-quote {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
-  color: #daab36;
-  padding: 0 80px;
+  color: #084462;
   text-align: center;
-  background-color: #000;
-}
-
-span {
-  padding-left: 150px;
+  font-weight: 600;
 }
