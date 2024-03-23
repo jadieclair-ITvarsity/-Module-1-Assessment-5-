@@ -12,8 +12,7 @@ body {
 
 .title,
 h2 {
-  color: #000;
-  background-color: #cbc6be;
+  color: #f4ebeb;
   padding: 20px;
   line-height: 1.5;
   font-size: 36px;
@@ -55,15 +54,15 @@ main {
 .captain,
 .black-widow,
 .hawkeye {
-  position: absolute;
+  /* position: absolute;
   top: 12%;
-  left: 5%;
+  left: 5%; */
   height: 300px;
   border-radius: 20px;
   transition: transform 0.4s ease;
 }
 
-.ironman {
+/* .ironman {
   left: 35%;
 }
 
@@ -83,7 +82,7 @@ main {
 .hawkeye {
   top: 75%;
   left: 67%;
-}
+} */
 
 .thor:hover,
 .ironman:hover,
