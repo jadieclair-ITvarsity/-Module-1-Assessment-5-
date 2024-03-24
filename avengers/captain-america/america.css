@@ -13,6 +13,12 @@ h1 {
 
 h2 {
   text-decoration: underline;
+  font-weight: 400;
+}
+
+h4 {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 div.gallery img {
@@ -48,17 +54,14 @@ b {
 }
 
 .avenger-title {
-  margin-top: 15px;
   color: #cfd3dd;
   background-color: #101010;
-  font-size: 18px;
-  letter-spacing: 0.5px;
 }
 
 .avenger-intro {
-  letter-spacing: 0.5px;
-  line-height: 18.2px;
+  line-height: 1.5;
   display: block;
+  font-size: 18px;
 }
 
 .stats-container {
@@ -68,21 +71,20 @@ b {
 
 .avenger-facts {
   position: absolute;
-  top: 115%;
   display: flex;
 }
 
 .bio,
 .stats {
   line-height: 1.5;
+  font-size: 20px;
   color: #fff;
 }
 
 .description {
   margin-top: 15px;
-  padding: 30px 50px;
-  line-height: 2.2;
-  letter-spacing: 2;
+  font-size: 20px;
+  line-height: 1.5;
   text-align: justify;
   color: #eee9e9;
   background-color: #000;
@@ -94,6 +96,8 @@ b {
 
 .avenger-quote {
   text-align: center;
-  padding-top: 20px;
   color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }

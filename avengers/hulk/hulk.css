@@ -60,13 +60,12 @@ b {
 }
 
 .avenger-intro {
-  letter-spacing: 0.5px;
-  line-height: 18.2px;
+  line-height: 1.5;
   display: block;
+  font-size: 18px;
 }
 
 .stats-container {
-  height: 450px;
   text-align: center;
   font-size: 20px;
 }
@@ -81,20 +80,13 @@ b {
 
 .bio,
 .stats {
-  margin-left: 30px;
   line-height: 1.5;
-}
-
-.stats-img {
-  float: left;
-  height: 350px;
 }
 
 .description {
   padding: 40px 50px;
   line-height: 2.2;
   font-size: 20px;
-  letter-spacing: 2;
   text-align: justify;
   color: #fff;
 }
@@ -103,4 +95,7 @@ b {
   font-size: 40px;
   text-align: center;
   color: #4d9b96;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
 }

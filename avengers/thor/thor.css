@@ -1,6 +1,5 @@
 body {
   font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
-  font-size: 20px;
 }
 
 h1 {
@@ -53,13 +52,12 @@ b {
   top: 60%;
   left: 5%;
   color: #fff;
-  font-weight: 500;
 }
 
 .avenger-intro {
-  letter-spacing: 0.5px;
-  line-height: 18.2px;
+  line-height: 1.5;
   display: block;
+  font-size: 18px;
 }
 
 .stats-container {
@@ -97,13 +95,14 @@ b {
   padding: 20px 50px;
   line-height: 2.2;
   font-size: 20px;
-  letter-spacing: 2;
   text-align: justify;
 }
 
 .avenger-quote {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 50px;
   color: #54bbd4;
+  font-weight: bold;
+  font-style: italic;
 }

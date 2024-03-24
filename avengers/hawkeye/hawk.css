@@ -41,25 +41,24 @@ nav a:hover {
 }
 
 b {
-  color: #304349;
+  color: #835898;
 }
 
-.main-img {
+.stat-img {
   width: 100%;
 }
 
 .avenger-title {
-  position: absolute;
-  top: 20%;
-  padding-left: 20px;
+  width: 100%;
+  padding: 20px;
   color: #000;
+  background-color: #835898;
   font-weight: 500;
+  font-size: 20px;
 }
 
 .avenger-intro {
-  letter-spacing: 0.5px;
   line-height: 30px;
-  width: 300px;
   font-size: 20px;
 }
 
@@ -67,18 +66,15 @@ b {
   float: left;
 }
 
-/* .stats-container {
+.stats-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
-} */
+  font-size: 20px;
+}
 
 .avengers-story {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 0px 0;
   align-items: center;
-  padding-top: 30px;
   text-align: justify;
 }
 
@@ -87,14 +83,11 @@ b {
 }
 
 .description {
-  padding: 20px 50px;
-  line-height: 2.2;
+  line-height: 1.5;
   font-size: 20px;
-  letter-spacing: 2;
   text-align: justify;
 }
 
 .desc-img {
   float: right;
-  margin: 20px;
 }
