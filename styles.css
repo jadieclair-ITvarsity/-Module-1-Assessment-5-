@@ -34,17 +34,17 @@ nav {
   width: 100%;
   padding: 20px;
   justify-content: space-around;
-  background-color: #fff;
+  background-color: #000;
 }
 
 nav a {
   text-decoration: none;
   font-size: 25px;
-  color: #0a0a0a;
+  color: #fff;
 }
 
 nav a:hover {
-  color: #e6526f;
+  color: #2564b2;
 }
 
 main {
@@ -86,21 +86,56 @@ main {
 footer {
   margin-top: 50px;
   color: #000;
-  padding: 26px;
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   background-color: #fff;
 }
 
 span {
   font-style: italic;
-  color: rgb(70, 145, 145);
+  color: #dbeaf1;
   text-decoration: underline;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #4b8491;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+div.footer-links a,
+ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+ul.social-links > li a:hover,
+div.footer-links a:hover {
+  color: #a59d96;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
 }
 
 /* About.html css */
 
-.container {
+.about-page {
+  background-color: #dbeaf1;
+}
+
+.about-nav {
+  background-color: #4b8491;
+}
+
+nav.about-nav a {
   color: #fff;
 }
 
@@ -110,11 +145,24 @@ span {
   font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial;
 }
 
+.about-subheading {
+  font-family: "Dancing Script", cursive;
+}
+
 .about-container {
+  background: url("images/about_page_background.jpg") no-repeat center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
-  gap: 20px;
-  line-height: 1.5;
+  gap: 30px;
+  line-height: 1.6;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.about-page-img {
+  width: 680px;
+  border-radius: 10px;
+  margin-top: 50px;
 }
