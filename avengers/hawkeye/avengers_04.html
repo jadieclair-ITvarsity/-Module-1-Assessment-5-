@@ -17,12 +17,33 @@
       <header>
         <nav>
           <a href="/">Home</a>
+          <select
+            class="drop-down"
+            name="avenger"
+            onchange="window.location.href = this.value;"
+          >
+            <option value="">Avengers</option>
+            <option value="../../avengers/thor/avengers_01.html">Thor</option>
+            <option value="../../avengers/ironman/avengers_02.html">
+              Iron Man
+            </option>
+            <option value="../../avengers/hulk/avengers_03.html">Hulk</option>
+            <option value="../../avengers/hawkeye/avengers_04.html">
+              Hawkeye
+            </option>
+            <option value="../../avengers/captain-america/avengers_05.html">
+              Captain America
+            </option>
+            <option value="../../avengers/black-widow/avengers_06.html">
+              Black Widow
+            </option>
+          </select>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
         </nav>
         <div class="gallery">
           <img
-            src="images/hawkeye/hawkeye_main.png"
+            src="../../images/hawkeye/hawkeye_main.png"
             class="img-fluid main-img"
             alt="Hawkeye"
           />
@@ -41,7 +62,7 @@
         <div class="avengers-story">
           <div class="stat-img mt-3">
             <img
-              src="images/hawkeye/hawkeye_stats.png"
+              src="../../images/hawkeye/hawkeye_stats.png"
               class="img-fluid stat-img"
               alt="Hawkeye"
             />
@@ -67,7 +88,7 @@
             </div>
             <div class="desc-img">
               <img
-                src="images/hawkeye/hawkeye_stats_1.png"
+                src="../../images/hawkeye/hawkeye_stats_1.png"
                 class="img-fluid p-4"
                 alt="Hawkeye"
               />

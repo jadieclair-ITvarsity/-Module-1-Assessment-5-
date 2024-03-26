@@ -17,11 +17,36 @@
       <header>
         <nav>
           <a href="/">Home</a>
+          <select
+            class="drop-down"
+            name="avenger"
+            onchange="window.location.href = this.value;"
+          >
+            <option value="">Avengers</option>
+            <option value="../../avengers/thor/avengers_01.html">Thor</option>
+            <option value="../../avengers/ironman/avengers_02.html">
+              Iron Man
+            </option>
+            <option value="../../avengers/hulk/avengers_03.html">Hulk</option>
+            <option value="../../avengers/hawkeye/avengers_04.html">
+              Hawkeye
+            </option>
+            <option value="../../avengers/captain-america/avengers_05.html">
+              Captain America
+            </option>
+            <option value="../../avengers/black-widow/avengers_06.html">
+              Black Widow
+            </option>
+          </select>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
         </nav>
         <div class="gallery">
-          <img src="images/thor/thor_main.webp" class="img-fluid" alt="Thor" />
+          <img
+            src="../../images/thor/thor_main.webp"
+            class="img-fluid"
+            alt="Thor"
+          />
           <div class="avenger-title">
             <h1>Thor Odinson</h1>
             <p class="avenger-intro">
@@ -42,7 +67,7 @@
         <div class="stats-container">
           <div class="stat-img">
             <img
-              src="images/thor/thor_stats_1.png"
+              src="../../images/thor/thor_stats_1.png"
               class="img-fluid"
               alt="Thor"
             />
@@ -83,7 +108,7 @@
           </p>
           <div class="stat-img">
             <img
-              src="images/thor/thor_stats_2.png"
+              src="../../images/thor/thor_stats_2.png"
               class="img-fluid"
               alt="Thor"
             />

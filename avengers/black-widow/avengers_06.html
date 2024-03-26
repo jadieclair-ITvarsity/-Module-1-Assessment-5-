@@ -17,17 +17,38 @@
       <header>
         <nav>
           <a href="/">Home</a>
+          <select
+            class="drop-down"
+            name="avenger"
+            onchange="window.location.href = this.value;"
+          >
+            <option value="">Avengers</option>
+            <option value="../../avengers/thor/avengers_01.html">Thor</option>
+            <option value="../../avengers/ironman/avengers_02.html">
+              Iron Man
+            </option>
+            <option value="../../avengers/hulk/avengers_03.html">Hulk</option>
+            <option value="../../avengers/hawkeye/avengers_04.html">
+              Hawkeye
+            </option>
+            <option value="../../avengers/captain-america/avengers_05.html">
+              Captain America
+            </option>
+            <option value="../../avengers/black-widow/avengers_06.html">
+              Black Widow
+            </option>
+          </select>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
         </nav>
         <div class="gallery">
           <img
-            src="/images/black-widow/black_main.jpg"
+            src="../../images/black-widow/black_main.jpg"
             class="img-fluid main-img"
             alt="Black Widow"
           />
           <img
-            src="https://wallpapers.com/images/hd/scarlett-johansson-black-widow-4000-x-2500-k77wu379cak23tx7.jpg"
+            src="../../images/black-widow/widow_stats_2.jpg"
             class="img-fluid main-img"
             alt="Scarlett Johansson"
           />
@@ -51,7 +72,7 @@
           <div class="avenger-facts mt-5">
             <div>
               <img
-                src="/images/black-widow/black_stats.jpg"
+                src="../../images/black-widow/black_stats.jpg"
                 class="img-fluid stats-img mt-5"
                 alt="Black Widow"
               />

@@ -17,11 +17,36 @@
       <header>
         <nav>
           <a href="/">Home</a>
+          <select
+            class="drop-down"
+            name="avenger"
+            onchange="window.location.href = this.value;"
+          >
+            <option value="">Avengers</option>
+            <option value="../../avengers/thor/avengers_01.html">Thor</option>
+            <option value="../../avengers/ironman/avengers_02.html">
+              Iron Man
+            </option>
+            <option value="../../avengers/hulk/avengers_03.html">Hulk</option>
+            <option value="../../avengers/hawkeye/avengers_04.html">
+              Hawkeye
+            </option>
+            <option value="../../avengers/captain-america/avengers_05.html">
+              Captain America
+            </option>
+            <option value="../../avengers/black-widow/avengers_06.html">
+              Black Widow
+            </option>
+          </select>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
         </nav>
         <div class="gallery">
-          <img src="/images/hulk/hulk_main.jpg" class="img-fluid" alt="Hulk" />
+          <img
+            src="../../images/hulk/hulk_main.jpg"
+            class="img-fluid"
+            alt="Hulk"
+          />
           <div class="avenger-title">
             <h1>Bruce Banner</h1>
             <p class="avenger-intro">
@@ -74,7 +99,7 @@
           <div class="avenger-facts">
             <div>
               <img
-                src="/images/hulk/hulk_stats_2.png"
+                src="../../images/hulk/hulk_stats_2.png"
                 class="img-fluid stats-img mt-5"
                 style="height: 250px"
                 alt="Hulk"
@@ -100,7 +125,7 @@
             </div>
             <div>
               <img
-                src="/images/hulk/hulk_stats_1.1.png"
+                src="../../images/hulk/hulk_stats_1.1.png"
                 class="img-fluid"
                 alt="Hulk"
               />
