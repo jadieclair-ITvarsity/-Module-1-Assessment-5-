@@ -111,13 +111,15 @@ b {
 
 .description {
   padding: 40px 50px;
-  line-height: 2.2;
+  line-height: 1.8;
   font-size: 20px;
   text-align: justify;
   color: #fff;
 }
 
 .avenger-quote {
+  margin-top: 120px;
+  padding-top: 20px;
   font-size: 40px;
   text-align: center;
   color: #4d9b96;

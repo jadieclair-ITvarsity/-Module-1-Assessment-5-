@@ -116,6 +116,10 @@ b {
   background-color: #000;
 }
 
+.avenger-facts-container {
+  margin-top: 20px;
+}
+
 .stat-img {
   width: 100%;
 }
